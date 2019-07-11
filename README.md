@@ -7,8 +7,10 @@ How to run:
 3.type "python ./NameOfProgram"
 
 List of Exercises:
-1.FizzBuzz.py
-2.GoatLatin.py
-3.LongestWord.py
-4.MaxDifference.py
-5.JewelsAndStones.py
+1.FizzBuzz.py added 07/10/19
+2.GoatLatin.py added 07/10/19
+3.LongestWord.py added 07/10/19
+4.MaxDifference.py added 07/10/19
+5.JewelsAndStones.py added 07/10/19
+6.Anagrams.py added 07/11/19
+7.Duplicate.py added 07/11/19
