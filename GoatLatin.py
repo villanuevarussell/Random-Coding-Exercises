@@ -4,6 +4,8 @@ Rules:
 2.If a consonant appears as the first letter of the word, move the first letter of the word to the end then add ma
 3.Add a letter 'a' to the end of each word per it's index. example: helloa howaa areaaa youaaaa doingaaaa
 '''
+
+import string
 def toGoatLatin(string):
 	#splits the string into separate words
 	string = string.split()
@@ -22,16 +24,22 @@ def toGoatLatin(string):
 #if not a vowel moves first letter to front of word, adds ma and count, and adds another 'a' to count
 		else:
 			frontofword = word[1:]
-			frontofword = frontofword.strip(',')
-			endofword = f"{word[0]}ma"
-			goatLatin.append(frontofword+endofword+count)
+			endofword = f"{word[0].lower()}ma"
+			goatLatin.append(frontofword+endofword[0]+count)
 			count = count + 'a'
+#joins list and returns string
 	return " ".join(goatLatin)
 
 	
 
 
 
-
+#Test Cases
 if __name__ == "__main__":
 	print(toGoatLatin('Hello Friend How are you doing today'))
+	print(toGoatLatin('The cow jumped over the moon'))
+	print(toGoatLatin('Coding exercises are fun'))
+
+
+
+

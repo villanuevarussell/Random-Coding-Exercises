@@ -25,6 +25,7 @@ def JewelsAndStones(j,s):
 	return jewelcount
 
 	'''
+
 	#Quicker way to do this
 	jewelcount = 0
 
@@ -37,11 +38,9 @@ def JewelsAndStones(j,s):
 	
 	
 
-	
-
-
-
-
-
+#Test Cases
 if __name__ == "__main__":
-	print(JewelsAndStones("aA","aAAbbbb"))
+	print(JewelsAndStones("aA","aAAbbbb"))#Output = 3
+	print(JewelsAndStones("z","ZZ"))#Output = 0
+	print(JewelsAndStones("ABCDE","aAAbbbaAbAAAbBcdEEC"))#Output = 10
+

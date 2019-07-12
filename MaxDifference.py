@@ -18,7 +18,7 @@ def MaxDifference(numbers):
 
 
 
-#example case when script is run
+#Test Cases
 if __name__ == "__main__":
 	numbers = [2,3,10,6,4,8,1]
 	print(MaxDifference(numbers))

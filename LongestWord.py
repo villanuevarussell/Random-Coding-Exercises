@@ -34,6 +34,9 @@ def LongestWord(sen):
 	return longword
 
 
-
+#Test Cases
 if __name__ == "__main__":
-	print(LongestWord("hel!(!@(*@lo friend super!)!)@) supercagu@@@!)!)raglistic"))
+	print(LongestWord("Hello Friend"))#Expected Output = Friend
+	print(LongestWord("fun#!*!( times"))#Expected Output = times
+	print(LongestWord("hel!(!@(*@lo friend super!)!)#*(@#*(#@*@) supercagu@@@!)!)raglistic"))#Expected Output = supercaguraglistic
+

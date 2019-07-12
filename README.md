@@ -14,3 +14,5 @@ List of Exercises:
 5.JewelsAndStones.py added 07/10/19
 6.Anagrams.py added 07/11/19
 7.Duplicate.py added 07/11/19
+8.TaxCalculator.py added 07/11/19
+9.Fibo.py added 07/11/19

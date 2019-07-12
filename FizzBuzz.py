@@ -19,6 +19,8 @@ def FizzBuzz(n):
 			print(number)
 
 
-
+#Test Cases
 if __name__ == "__main__":
 	FizzBuzz(100)
+	FizzBuzz(200)
+	FizzBuzz(50)
